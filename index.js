@@ -6,7 +6,7 @@ const chessy = (path) => {
     best: []
   }
 
-  const analyze = ({ fen, multi = 3, depth = null, callback = null } = {}) => {
+  const analyze = ({ fen, multi = 1, depth = null, callback = null } = {}) => {
     globs.order = fen.split(' ')[1]
     globs.multi = multi
     globs.callback = callback
