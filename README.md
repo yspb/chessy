@@ -58,7 +58,7 @@ Example without depth
       
       test2.analyze({ 
         fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1',
-        multi: 5,
+        multi: 3,
         callback: console.log
       })
       
