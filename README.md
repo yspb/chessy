@@ -9,7 +9,7 @@ You can create as many instances of stockfish engine as you want.<br>
 Install
 -------------------------
 
-Through npm with `git clone https://github.com/yspb/chessy.git`<br>
+Through git with `git clone https://github.com/yspb/chessy.git`<br>
 
 You also need stockfish binary from https://stockfishchess.org/download/linux/
 
