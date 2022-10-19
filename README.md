@@ -2,7 +2,7 @@
 
 Simple as a stick, stockfish nodejs client without spawning multiple os processes, crushing, memory leaking and so on.<br>
 
-You can push new fen any time without waiting for engine search complete.<br>
+You can push new fen any time without waiting for engine search to complete.<br>
 
 You can create as many instances of stockfish engine as you want.<br>
 
