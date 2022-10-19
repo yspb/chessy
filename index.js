@@ -88,4 +88,4 @@ const chessy = (path) => {
   return { analyze, stop, quit }
 }
 
-export { chessy }
+export default chessy
