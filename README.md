@@ -2,7 +2,6 @@
 
 Simple as a stick, stockfish nodejs client without spawning multiple os processes, crushing, memory leaking and so on
 
-
 Install
 -------------------------
 
@@ -55,6 +54,20 @@ test.analyze({
 Example without depth
 -------------------------
 
+//if depth is not specified, then engine will be in infinite search mode
+
+const test2 = chessy('/home/yspb/Downloads/stockfish_15_x64')
+
+test2.analyze({ 
+  fen: 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1',
+  multi: 5,
+  callback: console.log
+})
+
+setTimeout(() => {
+  test2.stop()
+  test2.quit()
+}, 10000)
 
 Licence
 -------------------------
