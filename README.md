@@ -10,7 +10,7 @@ Through npm with `npm install chessy`
 
 You also need stockfish binary from https://stockfishchess.org/download/linux/
 
-Usage
+Examples
 -------------------------
 
 
