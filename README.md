@@ -15,7 +15,7 @@ You also need stockfish binary from https://stockfishchess.org/download/linux/
 
 Example with depth
 -------------------------
-
+```javascript
       import chessy from './chessy/index.js'
 
       /*
@@ -47,10 +47,11 @@ Example with depth
       [ { score: 0.4, move: 'e2e4', depth: 15, pv: 'e2e4 c7c5 g1f3 d7d6 f1b5 c8d7 b5d7 b8d7 e1g1 g7g6 f1e1 g8f6' } ]
       
       */
+```
 
 Example without depth
 -------------------------
-
+```javascript
       import chessy from './chessy/index.js'
 
       //if depth is not specified, engine will be in infinite search mode
@@ -68,6 +69,7 @@ Example without depth
         test2.stop()
         test2.quit()
       }, 10000)
+ ```
 
 Licence
 -------------------------
