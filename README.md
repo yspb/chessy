@@ -9,14 +9,14 @@ You can create as many instances of stockfish engine as you want.<br>
 Install
 -------------------------
 
-Through npm with `npm install chessy`<br>
+Through npm with `git clone https://github.com/yspb/chessy.git`<br>
 
 You also need stockfish binary from https://stockfishchess.org/download/linux/
 
 Example with depth
 -------------------------
 
-      import chessy from './chessy'
+      import chessy from './chessy/index.js'
 
       /*
         fen = string in chess position format (there is no fen validation in code!)
@@ -49,7 +49,7 @@ Example with depth
 Example without depth
 -------------------------
 
-      import chessy from './chessy'
+      import chessy from './chessy/index.js'
 
       //if depth is not specified, engine will be in infinite search mode
       
