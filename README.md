@@ -16,7 +16,7 @@ You also need stockfish binary from https://stockfishchess.org/download/linux/
 Example with depth
 -------------------------
 
-      import chessy from chessy
+      import chessy from './chessy'
 
       /*
         fen = string in chess position format (there is no fen validation in code!)
@@ -48,6 +48,8 @@ Example with depth
 
 Example without depth
 -------------------------
+
+      import chessy from './chessy'
 
       //if depth is not specified, engine will be in infinite search mode
       
