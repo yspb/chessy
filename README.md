@@ -43,6 +43,7 @@ Example with depth
       [ { score: 1.6, move: 'c2c4', depth: 4, pv: 'c2c4' } ]
       [ { score: 0.4, move: 'e2e4', depth: 6, pv: 'e2e4 c7c5 c2c3 b8c6' } ]
       ...
+      [ { score: 0.4, move: 'e2e4', depth: 15, pv: 'e2e4 c7c5 g1f3 d7d6 f1b5 c8d7 b5d7 b8d7 e1g1 g7g6 f1e1 g8f6 c2c3 f8g7 d2d4 c5d4' } ]
       
       */
 
