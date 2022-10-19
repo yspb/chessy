@@ -25,6 +25,7 @@ Example with depth
         callback = function called on every portion of results from engine
       */
 
+      //path to the stockfish binary
       const test = chessy('/home/yspb/Downloads/stockfish_15_x64')
       
       test.analyze({ 
@@ -54,6 +55,7 @@ Example without depth
 
       //if depth is not specified, engine will be in infinite search mode
       
+      //path to the stockfish binary
       const test2 = chessy('/home/yspb/Downloads/stockfish_15_x64')
       
       test2.analyze({ 
