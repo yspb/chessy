@@ -19,7 +19,7 @@ Example with depth
       import chessy from './chessy/index.js'
 
       /*
-        fen = string in chess position format (there is no fen validation in code!)
+        fen = string in chess position format (there is no fen validation in the code!)
         multi = how many move lines to explore
         depth = the number of half moves (a move made by one side) the engine looks ahead
         callback = function called on every portion of results from engine
